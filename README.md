@@ -16,7 +16,7 @@ package installs `nodejs` but will additionally create a symlink from
 
 ### Getting the sources
 
-    git clone https://github.com/moneypot/bustabit-webserver.git
+    git clone https://github.com/shamimiceewu025/bustabit-webserver.git
     cd bustabit-webserver
 
 ### Create a database user and setup the tables
@@ -29,7 +29,7 @@ Create the database and setup the tables. The second command will prompt you
 for the password again.
 
     sudo -u postgres createdb -O bustabit bustabitdb
-    psql -W -U bustabit -d bustabitdb -h localhost -f server/schema.sql
+    psql -W -U bustabit -d bustabitdb -h localhost -f server/sql/schema.sql
 
 Mac OS X
 --------
@@ -42,7 +42,7 @@ These are instructions for running bustabit locally on a Mac using homebrew.
 
 ### Getting the sources
 
-    git clone https://github.com/moneypot/bustabit-webserver.git
+    git clone https://github.com/shamimiceewu025/bustabit-webserver.git
     cd bustabit-webserver
 
 ### Create a database user and setup the tables
@@ -55,7 +55,7 @@ Create the database and setup the tables. The second command will prompt you
 for the password again.
 
     createdb -O bustabit bustabitdb
-    psql -W -U bustabit -d bustabitdb -h localhost -f src/server/schema.sql
+    psql -W -U bustabit -d bustabitdb -h localhost -f server/sql/schema.sql
 
 
 Configuration
