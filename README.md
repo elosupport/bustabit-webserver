@@ -16,7 +16,7 @@ package installs `nodejs` but will additionally create a symlink from
 
 ### Getting the sources
 
-    git clone https://github.com/shamimiceewu025/bustabit-webserver.git
+    git clone https://github.com/elosupport/bustabit-webserver.git
     cd bustabit-webserver
 
 ### Create a database user and setup the tables
@@ -42,7 +42,7 @@ These are instructions for running bustabit locally on a Mac using homebrew.
 
 ### Getting the sources
 
-    git clone https://github.com/shamimiceewu025/bustabit-webserver.git
+    git clone https://github.com/elosupport/bustabit-webserver.git
     cd bustabit-webserver
 
 ### Create a database user and setup the tables
